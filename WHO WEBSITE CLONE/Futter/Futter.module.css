@@ -1,0 +1,113 @@
+.futter{
+    /* border: 2px solid red; */
+    height: 700px;
+    width: 100%;
+    /* padding: 5px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:#00205CD9 ;
+}
+.lists{
+    /* border: 2px solid blue; */
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 12px;
+    
+
+}
+.list1{
+    /* border: 2px solid black; */
+    height: 90%;
+    width:22% ;
+    color: white;
+    margin-top: 15px;
+    
+}
+.list1 h2{
+    margin: 15px;
+    font-size: 30px;
+    
+}
+.list1 h2:hover{
+    
+    background-color: #0078d4;
+}
+.list1 ul{
+    list-style: none;
+    margin: 15px;
+    /* padding: 10px; */
+}
+.list1 ul li{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.list1 ul li:hover{
+    background-color: #0078d4;
+}
+.report{
+    /* border: 2px solid black; */
+    height: 150px;
+    width:22% ;
+    color: white;
+    margin-top: 15px;
+
+}
+.report button{
+    font-size: 25px;
+    margin-top: 15px;
+    width: 280px;
+    height: 60px;
+    border: none;
+    background-color: #4a70b8;
+    color: white;
+}
+.report button:hover{
+    background-color:#507dd0;
+}
+
+.whoicon{
+    /* border: 2px solid blue; */
+    height: 150px;
+    width: 480px;
+}
+.whoicon img{
+    width: 100%;
+    height: 100%;
+   
+}
+.whoicon img:hover{
+    background-color: #0078d4;
+}
+.socialmedia{
+    /* border: 2px solid blue; */
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+.socialmedia h2{
+    margin: 15px;
+    font-size: 25px;
+    color: white;
+    
+}
+.socialmedia h2:hover{
+    background-color: #0078d4;
+}
+.socialmedia ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 45%;
+}
+
+
